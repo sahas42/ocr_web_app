@@ -1,0 +1,10 @@
+#Flask
+#tensorflow-cpu
+#pillow
+#matplotlib
+
+Flask==3.1.1
+tensorflow-cpu==2.19.0   # has cp311 & cp312 wheels
+pillow==10.3.0
+matplotlib==3.9.0
+gunicorn==22.0.0

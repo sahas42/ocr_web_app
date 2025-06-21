@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alphanumeric OCR Demo</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Draw a Character</h1>
+    <canvas id="drawCanvas" width="280" height="280"></canvas>
+    <div class="buttons">
+      <button id="clearBtn">Clear</button>
+      <button id="predictBtn">Predict</button>
+      <button id="showImg">Show Image</button>
+    </div>
+    <div id="result"></div>
+    <img id="processedImg" src=""/>
+  </div>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

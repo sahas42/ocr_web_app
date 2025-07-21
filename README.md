@@ -1,4 +1,6 @@
-Developed an alphanumeric character recognition program with the EMNIST dataset using TensorFlow. Enhanced the alphanumeric character recognition program into a Flask web app.
+Developed an alphanumeric character recognition program with the EMNIST dataset using TensorFlow which can be found in https://github.com/sahas42/ocr 
+
+Enhanced the alphanumeric character recognition program into a Flask web app.
 
 It accepts a user-written character on an HTML canvas and predicts the character. HTML, CSS and JavaScript were used.
 
